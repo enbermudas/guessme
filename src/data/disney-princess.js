@@ -17,7 +17,7 @@ const disneyPrincess = [
   "Tiana",
   "Blanca Nieves",
   "Megara",
-  "Ceniciente",
+  "Cenicienta",
   "Ariel",
   "Elena",
   "Kida"

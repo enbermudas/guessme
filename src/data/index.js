@@ -1,25 +1,31 @@
+import carsBrands from './cars-brands';
 import disneyPrincess from './disney-princess';
 import naruto from './naruto';
 import pokemon from './pokemon';
 
 const data = {
+  carsBrands,
   disneyPrincess,
   naruto,
   pokemon,
 };
 
 export const messages = {
+  carsBrands: {
+    title: "Marcas de autos",
+    description: "VROOOOOOOOOOOOOOM!!!!"
+  },
   disneyPrincess: {
     title: "Princesas de Disney",
-    description: "¡Escribe nombres de princesas, rápido!",
+    description: "✨✨✨✨✨✨",
   },
   pokemon: {
     title: "Pokémon",
-    description: "¡Escribe nombres de pokémon, rápido!"
+    description: "Gotta name 'em all!"
   },
   naruto: {
     title: "Naruto",
-    description: "¡Escribe nombres de personajes, rápido!"
+    description: "Te falta conocimiento, Sasuke."
   }
 }
 
