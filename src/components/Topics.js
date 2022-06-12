@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Button, Stack, Heading, Center } from '@chakra-ui/react';
+import { Button, Stack, Heading, Center, Tag} from '@chakra-ui/react';
 import { messages } from '../data';
 
 const Topics = ({
@@ -12,15 +12,13 @@ const Topics = ({
         <Heading size="md">Elige un tema para empezar a jugar.</Heading>
       </Center>
 
-      <Stack direction="row" spacing={4} align='center'>
-        {
-          Object.keys(data).map((key) => {
-            return (
-              <Button key={key} onClick={() => startGame(key)}>{messages[key].title}</Button>
-            )
-          })
-        }
-      </Stack>
+      {
+        Object.keys(data).map((key) => {
+          return (
+            <Tag style={{ margin: "0 5px 5px 0", cursor: "pointer" }} key={key} onClick={() => startGame(key)}>{messages[key].title}</Tag>
+          )
+        })
+      }
     </>
   );
 };
