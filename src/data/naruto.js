@@ -98,6 +98,7 @@ const naruto = [
   "Shisui",
   "Kawaki",
   "Boruto",
+  "Konohamaru",
 ];
 
 export default naruto;
