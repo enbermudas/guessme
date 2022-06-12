@@ -1,10 +1,6 @@
 import PropTypes from 'prop-types';
 import { Button, Stack, Heading, Center } from '@chakra-ui/react';
-
-const translatedKeys = {
-  pokemon: "Pokémon",
-  naruto: "Naruto"
-}
+import { messages } from '../data';
 
 const Topics = ({
   data,
@@ -20,7 +16,7 @@ const Topics = ({
         {
           Object.keys(data).map((key) => {
             return (
-              <Button key={key} onClick={() => startGame(key)}>{translatedKeys[key]}</Button>
+              <Button key={key} onClick={() => startGame(key)}>{messages[key].title}</Button>
             )
           })
         }

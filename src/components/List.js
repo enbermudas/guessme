@@ -1,8 +1,10 @@
 import { Tag, Heading, Center } from '@chakra-ui/react';
 import PropTypes from 'prop-types';
+import { messages } from '../data';
 
 const List = ({
-  data
+  data,
+  category
 }) => {
   return (
     <>
@@ -18,7 +20,7 @@ const List = ({
           : (
             <Center>
               <Heading size='md'>
-                ¡Rápido, escribe tantos como puedas!
+                {messages[category].description}
               </Heading>
             </Center>
           )
@@ -29,6 +31,7 @@ const List = ({
 
 List.propTypes = {
   data: PropTypes.arrayOf(PropTypes.string).isRequired,
+  category: PropTypes.string.isRequired,
 }
 
 export default List;

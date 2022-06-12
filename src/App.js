@@ -10,6 +10,7 @@ import data from './data';
 import theme from './theme';
 
 const App = () => {
+  const [category, setCategory] = useState('');
   const [topic, setTopic] = useState([]);
   const [total, setTotal] = useState(0);
   const [guesses, setGuesses] = useState([]);
@@ -39,6 +40,7 @@ const App = () => {
   };
 
   const restartGame = () => {
+    setCategory('');
     setTopic([]);
     setTotal(0);
     setGuesses([]);
@@ -49,6 +51,7 @@ const App = () => {
   };
 
   const startGame = (key) => {
+    setCategory(key);
     setTopic(data[key]);
     setTotal(data[key].length);
     setStarted(true);
@@ -114,7 +117,7 @@ const App = () => {
 
               <Divider style={{ margin: "15px 0" }} />
 
-              <List data={guesses} />
+              <List data={guesses} category={category} />
 
               <Divider style={{ margin: "15px 0" }} />
 
