@@ -1,7 +1,7 @@
 const disneyPrincess = [
   "Jazmin",
   "Rapunzel",
-  "Mulán",
+  "Mulan",
   "Pocahontas",
   "Moana",
   "Tiana",
