@@ -182,7 +182,7 @@ const App = () => {
         </Center>
 
         <Text color="gray">
-          Una vez seleccionada una categoría, tendrás 1 minuto para escribir tanto nombres como puedas.
+          Una vez seleccionada una categoría, tendrás 1 minuto para escribir tantos nombres como puedas.
           Sumarás 1 punto por cada nombre correcto. Cuando hayas acertado algún nombre, éste se agregará a la lista y podrás volver a escribir.
           No es necesario utilizar acentos o espacios en blanco.
         </Text>

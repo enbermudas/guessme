@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Button, Stack, Heading, Center, Tag} from '@chakra-ui/react';
+import { Heading, Center, Tag} from '@chakra-ui/react';
 import { messages } from '../data';
 
 const Topics = ({
