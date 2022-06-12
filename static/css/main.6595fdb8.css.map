@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6595fdb8.css","mappings":"AAAA,oBAEE,kBAAmB,CADnB,YAEF","sources":["components/Scoreboard.css"],"sourcesContent":["#scoreboard-list > li {\n  display: flex;\n  align-items: center;\n}\n"],"names":[],"sourceRoot":""}
