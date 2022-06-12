@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/guessme/static/js/main.ae88643a.js",
+    "main.js": "/guessme/static/js/main.22b3e95e.js",
     "static/js/377.6cde705f.chunk.js": "/guessme/static/js/377.6cde705f.chunk.js",
     "index.html": "/guessme/index.html",
-    "main.ae88643a.js.map": "/guessme/static/js/main.ae88643a.js.map",
+    "main.22b3e95e.js.map": "/guessme/static/js/main.22b3e95e.js.map",
     "377.6cde705f.chunk.js.map": "/guessme/static/js/377.6cde705f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ae88643a.js"
+    "static/js/main.22b3e95e.js"
   ]
 }
