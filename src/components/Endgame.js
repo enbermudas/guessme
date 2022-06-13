@@ -52,11 +52,11 @@ const Endgame = ({
             <AlertDialogBody>
               Adiviniste {guesses} de {total}.
 
-              <Divider style={{ margin: "15px 0" }} />
+              <Divider my={15} />
 
               <Scoreboard scores={scores} category={category} />
 
-              <Divider style={{ margin: "15px 0" }} />
+              <Divider my={15} />
 
               <Input
                 placeholder="Escribe tu nombre acá para añadirte a la lista."
@@ -67,7 +67,7 @@ const Endgame = ({
               <Text
                 fontSize='xs'
                 color="gray"
-                style={{ marginTop: "5px" }}
+                mt={5}
               >
                 Solo aparecerás si superas algún récord.
               </Text>

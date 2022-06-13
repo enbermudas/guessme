@@ -13,7 +13,7 @@ const List = ({
           ? (
             data.map((word, idx) => {
               return (
-                <Tag key={idx} style={{ margin: "0 5px 5px 0" }}>{word}</Tag>
+                <Tag key={idx} mt={5} mr={5}>{word}</Tag>
               );
             })
           )

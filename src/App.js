@@ -137,7 +137,7 @@ const App = () => {
         setUsername={setUsername}
       />
 
-      <Container maxW="container.sm" style={{ marginTop: "50px" }}>
+      <Container maxW="container.sm" mt={50}>
         {
           started
             ? (
@@ -153,11 +153,11 @@ const App = () => {
                   />
                 </Center>
 
-                <Divider style={{ margin: "15px 0" }} />
+                <Divider my={15} />
 
                 <List data={guesses} category={category} />
 
-                <Divider style={{ margin: "15px 0" }} />
+                <Divider my={15} />
 
                 <Keyboard
                   keyLength={12}
@@ -175,9 +175,9 @@ const App = () => {
             )
         }
 
-        <Divider style={{ margin: "15px 0" }} />
+        <Divider my={15} />
 
-        <Center style={{ margin: "25px" }}>
+        <Center my={25}>
           <Heading size="md">¿Cómo jugar?</Heading>
         </Center>
 

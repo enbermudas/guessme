@@ -34,7 +34,7 @@ const Scoreboard = ({
 
   return (
     <>
-    <Center style={{ margin: "15px 0" }} >
+    <Center my={15}>
       <Heading size='md'>Estos son los mejores jugadores</Heading>
     </Center>
 

@@ -8,14 +8,14 @@ const Topics = ({
 }) => {
   return (
     <>
-      <Center style={{ margin: "25px" }}>
+      <Center my={25}>
         <Heading size="md">Elige un tema para empezar a jugar.</Heading>
       </Center>
 
       {
         Object.keys(data).map((key) => {
           return (
-            <Tag style={{ margin: "0 5px 5px 0", cursor: "pointer" }} key={key} onClick={() => startGame(key)}>{messages[key].title}</Tag>
+            <Tag mt={5} mr={5} style={{ cursor: "pointer" }} key={key} onClick={() => startGame(key)}>{messages[key].title}</Tag>
           )
         })
       }
